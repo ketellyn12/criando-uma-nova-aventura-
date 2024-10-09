@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você recebe uma carta misteriosa convidando-o para uma reunião secreta da máfia na antiga fábrica de cerveja da cidade. Curioso e intrigado, você decide ir. Ao chegar, o ar é pesado e a luz é fraca. Você é recebido por Don Marco, o chefe da máfia, que lhe oferece uma missão: recuperar uma valiosa relíquia roubada. Você aceita?</p>
+            <button class="btn-proximo" data-proximo="1">Sim, quero descobrir mais</button>
+            <button class="btn-proximo" data-proximo="2">Não, isso parece perigoso. </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> Se você escolheu A: Don Marco explica que a relíquia, um medalhão antigo, foi roubada por um rival, Vito. Para recuperá-la, você precisará de um plano inteligente e de aliados. Ao redor da mesa, os capangas olham para você com expectativa. Você vai:</p>
+            <button class="btn-proximo" data-proximo="3">Propor um plano detalhado.</button>
+            <button class="btn-proximo" data-proximo="4"> Ouvir o que os outros sugerem.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>< Se você escolheu A: Você sugere que se infiltre na festa de Vito, disfarçado de garçom. Todos concordam. Durante a reunião, você conhece Sofia, uma hacker que pode ajudá-lo a desativar as câmeras. Você quer:/p>
+            <button class="btn-proximo" data-proximo="5"> Convocar Sofia para a missão.</button>
+            <button class="btn-proximo" data-proximo="6"> Ir sozinho, sem ajuda.</button>
+        </div>
+
+        <div clas="passo" id="passo-3"> 
+        <p> Se você escolheu A: Na festa, você se disfarça de garçom e, com a ajuda de Sofia, consegue desativar as câmeras. No entanto, um segurança se aproxima. Você se vê diante de uma escolha crítica. O que faz?</p>
+            <button class="btn-proximo" data-proximo="7">Tenta distrair o segurança com um truque</button>
+            <button class="btn-proximo" data-proximo="8"> Enfrenta-o diretamente.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Se você escolheu A: Você derrama uma bebida no segurança, criando uma distração. Enquanto ele se limpa, você se infiltra no escritório de Vito. Você encontra o cofre, mas ele está trancado. Você decide:</p>
+            <button class="btn-proximo" data-proximo="9">Forçar o cofre</button>
+            <button class="btn-proximo" data-proximo="10"> Procurar a chave.</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Se você escolheu B: Você explora o escritório e encontra uma chave escondida na gaveta. Com a chave em mãos, você abre o cofre e encontra o medalhão. No entanto, há uma gravação dentro, revelando um plano de traição de Vito contra Don Marco. O que faz?</p>
+            <button class="btn-proximo" data-proximo="11"> Leva tudo para Don Marco.</button>
+            <button class="btn-proximo" data-proximo="12"> Usa a gravação como vantagem contra Vito.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Se você escolheu A: Você retorna à fábrica com o medalhão e a gravação. Don Marco fica impressionado e, ao ouvir a gravação, decide confrontar Vito. Ele lhe oferece um cargo de confiança na máfia. Você aceita?</p>
+            <button class="btn-proximo" data-proximo="13">Sim, quero poder e respeito.</button>
+            <button class="btn-proximo" data-proximo="14"> Não, prefiro me afastar.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p> Se você escolheu A: Agora como o braço direito de Don Marco, você deve tomar decisões difíceis e comandar as operações da máfia. Você percebe que o poder tem seu preço e enfrenta dilemas morais. Está pronto para lidar com isso?</p>
+            <button class="btn-proximo" data-proximo="15"> Sim, o poder é meu objetivo.</button>
+            <button class="btn-proximo" data-proximo="16">Não, quero uma vida normal.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="17">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="18">Explorar as praias próximas</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
